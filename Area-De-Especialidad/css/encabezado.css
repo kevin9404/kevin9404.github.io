@@ -9,23 +9,21 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+
 }
 
 .menu{
     position: fixed;
     background-color: #1A202C;
     color: #fff;
-    height: 70px;
-    width: 100%
+    height: 80px;
+    width: 100%;
 }
 
 .menu__container{
    
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
+    justify-content: center;
     height: 100%;
     margin: 0 auto;
     padding: 0px 0px;
@@ -35,6 +33,7 @@ body{
     height: 100%;
     transition: transform .5s;
     display: flex;
+
 }
 
 .menu__item{
@@ -82,6 +81,7 @@ body{
     width: 100%;
     transform: translateY(100%);
     background-color: #000;
+
 }
 
 .menu__link--inside{
@@ -101,6 +101,7 @@ body{
     padding: 0 15px;
     cursor: pointer;
     display: none;
+    
 }
 
 .menu__img{

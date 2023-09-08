@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/iconoWhatsapp.css"> <!-- ICONO WHATSAPP-->
     <link rel="stylesheet" href="css/encabezado.css">    <!-- HEADER-->
     <link rel="stylesheet" href="css/footerespecial.css"> <!-- FOOTER ESPECIAL-->
+     <link rel="stylesheet" href="css/style.css"> 
 </head>   
   
 <style>
@@ -18,26 +19,28 @@ p  { text-align: justify;
     line-height:1.5em;
   }
 
-#parte1 { max-width: 100%;  
+#parte1 { width: 1444px;
+          margin: 0px auto; 
           background-color:white ; 
+          height: 1200px; 
         }
 
 #columna1 { float: left;
             width: 20%;
             background-color:white ; 
             padding: 5% 5% 0% 5%;
-            height: 1000px;   
+ 
           }
 
 #columna2 { float: right;
             width: 60%;
             background-color:white ; 
             padding: 5% 5% 0% 5%;
-            height: 1000px;         
           }
 
 
-#Parte3 { max-width: 100%;
+#parte3 { width: 1444px;
+          margin: 0px auto;
         }
 
 #columna111 { float: left;
@@ -64,11 +67,11 @@ p  { text-align: justify;
 <body>  
 
 
-<div class="whatsapp-link">
-  <a href="https://wa.me/1234567890?text=¡Hola%20desde%20mi%20sitio%20web!" target="_blank">
-    <img src="imagenes/what.png" alt="WhatsApp" height="50px">
-  </a>
-</div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float">
+                </i>
+            </a>
 
 
 
@@ -129,7 +132,7 @@ p  { text-align: justify;
                
 <br><br>
 
-<div class="parte1">
+<div id="parte1">
 
             <div id="columna1"> 
                     <p style="font-family: times;font-size: 30px;text-align: center;">Areás de </p> 
@@ -143,14 +146,14 @@ p  { text-align: justify;
                     <a href="Cobranza-Judicial.html">Derecho Judicial y Extrajudicial</a>
                 </div>
             </div>      
-</div>
+
 
 <div id="columna2">
-                <img src="imagenes/image3.jpg" style="width: 100%; height: 45vh" /> 
+                <img src="imagenes/image3.jpg" width="100%" height="400px"> 
                 <br><br>
                 <p style="font face:Courier;font-size: 48px;text-align: center">Derecho Civil</p>
                 <br>
-                <p>Ofrecemos asesoría y patrocinio integral para la detección de posibles riesgos transaccionales y de esta forma evitar posibles contingencias que perjudique los intereses de nuestros clientes. Asimismo, nuestro patrocinio y asesoría se concentra en procesos civiles relacionados con propiedades, herencias y testamentos de bienes inmuebles.</p>
+                <p>Ofrecemos asesoría y patrocinio integral para la detección de posibles riesgos transaccionales y de esta forma evitar posibles contingencias que perjudique los intereses de nuestros clientes. Asimismo, nuestro patrocinio y asesoría se concentra en procesos civiles relacionados con propiedades, herencias y testamentos de bienes inmuebles.</p>   <br>
 
                
 
@@ -169,7 +172,7 @@ p  { text-align: justify;
                 <li style="text-align: justify;font-family: garamond; font-size: 1.4em;line-height:1.5em;">
                 Indemnizaciones por daños y perjuicios, lucro cesante, daño emergente y daño moral. civil.</li>
 </div>
-                
+</div>           
         
 
 
@@ -218,7 +221,7 @@ p  { text-align: justify;
          
     </div>
   </div>
-</div>
+
 
 </body>
 </html>

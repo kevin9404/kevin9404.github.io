@@ -9,65 +9,74 @@
     <link rel="stylesheet" href="css/iconoWhatsapp.css"> <!-- ICONO WHATSAPP-->
     <link rel="stylesheet" href="css/encabezado.css">    <!-- HEADER-->
     <link rel="stylesheet" href="css/footerespecial.css"> <!-- FOOTER ESPECIAL-->
+    <link rel="stylesheet" href="css/style.css"> 
 </head>   
 
 <style>
 
+body{
 
+
+}
 
 p  { text-align: justify;
     font-family: garamond;
-    font-size: 1.4em;
-    line-height:1em;
+    font-size: 1.2em;
+    line-height:1.5em;
   }
 
 
 
-#parte1 { max-width: 100%;
-
+#parte1 {
+         width: 1440px;
+         margin:0px auto;
         }
 
-#columna1 { float: left;
-            font-size:18;
-            width: 80%;  
+#columna1 { 
+            width: 60%;
+            font-size:18; 
+            padding-top: 120px;
+            padding-right: 20%;
+            padding-left: 20%;
             background-color: white;
-            padding-left: 10%;
-            padding-right: 10%;
-           
           }
 
-#parte2 { max-width: 100%; 
-          background-color: white; 
+#parte2 {  
+          width: 1440px;
+          margin:0 auto;
+          background-color: EECF31;
+          height: 400px;
         }
 
 #columna11 { float: left;
              font-size:14;
-             width: 45%;
-             padding-left: 10%;
-             padding-right: 10%;
-             padding-top: 0%;
-             height: 400px;
+             width: 35%;
+             padding-left: 20%;
+             padding-right:5%;
+  
              background-color: white;
                          
            }
 
 #columna22 {  float: right;
               font-size:16;
-              width: 25%;
-              padding-right: 10%;
-              height: 400px;
+              width: 20%;
+              padding-right: 20%;
               background-color: white;
-              border-
+            
            }
 
 
-#Parte3 { max-width: 100%;
+#parte3 { width: 1444px;
+          margin:0px auto;
+
         }
 
 #columna111 { float: left;
               font-size:14;
               width: 30%;
               margin-left: 2.5%;   height: 370px;   
+
             }
 
 #columna222 { float: left;
@@ -87,80 +96,83 @@ p  { text-align: justify;
 
 
 <body>   
-
-
-<div class="whatsapp-link">
-  <a href="https://wa.me/1234567890?text=¡Hola%20desde%20mi%20sitio%20web!" target="_blank">
-    <img src="imagenes/what.png" alt="WhatsApp" height="50px">
-  </a>
-</div>
-
-
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float">
+                </i>
+            </a>
+           
+            
 
 
    <div class="menu">
-     <div class="menu__container">   
+        <div class="menu__container">   
             <a href="index.html"><h1 class="menu__logo"style="margin-left: 50px;margin-right:200px"><img src="imagenes/logo.jpg" height="75" width="250" > </h1>
-   
-                <li class="menu__item">
-                    <a href="index.html" class="menu__link">Inicio</a>
-                </li>
+            </a>
+                
+            <li class="menu__item">
+                <a href="index.html" class="menu__link">Inicio</a>
+            </li>
 
-                <li class="menu__item">
-                    <a href="Nuestra_Firma.html" class="menu__link">Nuestra Firma</a>
-                </li>
+            <li class="menu__item">
+                <a href="Nuestra_Firma.html" class="menu__link">Nuestra Firma</a>
+            </li>
     
-                <li class="menu__item menu__item--show">
-                    <a href="#" class="menu__link">Especialidades <img src="assets/arrow.svg" class="menu__arrow"></a>
+            <li class="menu__item menu__item--show">
+                <a href="#" class="menu__link">Especialidades <img src="assets/arrow.svg" class="menu__arrow"></a>
     
-                    <ul class="menu__nesting">
-                        <li class="menu__inside">
-                            <a href="Area-De-Especialidad/Derecho-Penal-y-Procesal.html" class="menu__link menu__link--inside">Derecho Penal</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="Area-De-Especialidad/Derecho-Laboral.html" class="menu__link menu__link--inside">Derecho Laboral</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="Area-De-Especialidad/Derecho-Civil-y-Procesal-Civil.html" class="menu__link menu__link--inside">Derecho Civil</a>
-                        </li>
-                         <li class="menu__inside">
-                            <a href="Area-De-Especialidad/Derecho-de-familia.html" class="menu__link menu__link--inside">Derecho Familia</a>
-                        </li>
-                         <li class="menu__inside">
-                            <a href="Area-De-Especialidad/Cobranza-Judicial.html" class="menu__link menu__link--inside">Derecho Judicial y Extrajudicial</a>
-                        </li>
-                    </ul>
-                </li>
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="Area-De-Especialidad/Derecho-Penal-y-Procesal.html" class="menu__link menu__link--inside">Derecho Penal</a>
+                    </li>
+
+                     <li class="menu__inside">
+                        <a href="Area-De-Especialidad/Derecho-Laboral.html" class="menu__link menu__link--inside">Derecho Laboral</a>
+                    </li>
+                        
+                    <li class="menu__inside">
+                        <a href="Area-De-Especialidad/Derecho-Civil-y-Procesal-Civil.html" class="menu__link menu__link--inside">Derecho Civil</a>
+                    </li>
+                         
+                    <li class="menu__inside">
+                        <a href="Area-De-Especialidad/Derecho-de-familia.html" class="menu__link menu__link--inside">Derecho Familia</a>
+                    </li>
+                        
+                    <li class="menu__inside">
+                        <a href="Area-De-Especialidad/Cobranza-Judicial.html" class="menu__link menu__link--inside">Derecho Judicial y Extrajudicial</a>
+                    </li>
+                    
+                </ul>
+            </li>
                
-                <li class="menu__item">
-                    <a href="Clientes.html" class="menu__link">Clientes</a>
-               </li>
+            <li class="menu__item">
+                <a href="Clientes.html" class="menu__link">Clientes</a>
+            </li>
                
-               <li class="menu__item">
-                    <a href="Oficina.html" class="menu__link">Oficina</a>
-               </li>
+            <li class="menu__item">
+                <a href="Oficina.html" class="menu__link">Oficina</a>
+            </li>
     
-                <li class="menu__item">
-                    <a href="Contacto.html" class="menu__link">Contacto</a>
-                </li>
+            <li class="menu__item">
+                <a href="Contacto.html" class="menu__link">Contacto</a>
+            </li>
 
             <div class="menu__hamburguer">
                 <img src="assets/menu.svg" class="menu__img">
             </div>
-     </div>
-        <script src="js/app.js"></script>
-   </div> 
-            
-               
+        </div>
+      <script src="js/app.js"></script>
+    </div>
+
+
 
 <div id="parte1" >
     <div id="columna1"> 
-        <p style="font face:Courier;font-size: 36px;text-align: center;margin-top: 120px;">Legatus - Abogados en linea</p>
+        <h1 style="font face:Courier;font-size: 36px;text-align: center;color:gray;font-family: times;">Legatus - Abogados en linea</h1>
         <br>
         <p>Nuestro estudio de abogados ofrece a los clientes asesoría legal especializada en forma personalizada, a través de nuestro staff de abogados  altamente capacitados y con experiencia en las diversas áreas del derecho. Brindamos asesoría jurídica de la más alta calidad, personalizando la relación con nuestros clientes, generándoles seguridad y comodidad, logrando formar, de esta manera, relaciones de estrecha confianza y de largo plazo.</p>             <br>      
-          
-        <img src="imagenes/image3.jpg"  height="800" width="100%" />
-
+           
+<img src="imagenes/image2.jpg" width="100%" height="500px" >
     </div>
 </div>
 
@@ -213,17 +225,15 @@ p  { text-align: justify;
     
         <div id="columna333">
             <br>
-            <p style="font-size: 35px;font-family: times;text-align: center">Contactanos
-            </p><br>
+            <p style="font-size: 35px;font-family: times;text-align: center">Contactanos</p><br>
                  
-            <p style="font-size:18px;text-align: center;"><img src="imagenes/phone.png" height="40px" align="center">    XXX-XXX-XXX / XXX-XXXX 
-            </p> <br>
+            <p style="font-size:18px;text-align: center;"><img src="imagenes/phone.png" height="40px" align="center">XXX-XXX-XXX / XXX-XXXX </p> <br>
  
             <p style="font-size:18px;text-align: center;"><img src="imagenes/mail.png" height="40px"align="center"> Legatusabogados@gmail</p><br>
-
                 
-            <p style="font-size:18px;text-align: center;"><img src="imagenes/address.png" height="40px" align="center"> Jr. las palmeras N° XXX    </p>              
-            <p style="font-size:18px;text-align: center;">San Isidro - Lima</p>
+            <p style="font-size:18px;text-align: center;"><img src="imagenes/address.png" height="40px" align="center"> Jr. las palmeras N° XXX</p>              
+            <p style="font-size:18px;text-align: center;">  San Isidro - Lima</p>
+
         </div><br>
     
 
@@ -234,6 +244,7 @@ p  { text-align: justify;
          
     </div>
 </div>
+
 
 </body>
 </html>
